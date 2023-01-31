@@ -20,8 +20,9 @@ while True:
     # compare moves
     if user_move == computer_move:
         print("It's a tie!")
-    elif (user_move == "rock" and computer_move == "scissors") or (
-            user_move == "scissors" and computer_move == "paper") or (user_move == "paper" and computer_move == "rock"):
+    elif (user_move == "rock" and computer_move == "scissors") \
+            or (user_move == "scissors" and computer_move == "paper") \
+            or (user_move == "paper" and computer_move == "rock"):
         print("You win!")
     else:
         print("You lose!")
